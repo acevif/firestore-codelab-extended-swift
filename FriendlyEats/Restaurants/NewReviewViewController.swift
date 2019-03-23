@@ -65,7 +65,19 @@ class NewReviewViewController: UIViewController, UITextFieldDelegate {
                         date: Date(),
                         yumCount: 0)
 
-    // TODO: Write the review to Firestore.
+    // Add this section here
+    // Warning: The code you are writing is actually buggy! We'll find out why in the "Support Offline Mode" section later on in this codelab, but just keep that in mind before you start copying-and-pasting this code into your own app.
+    Firestore.firestore().collection("reviews").document(review.documentID)
+      .setData(review.documentData) { error in
+        if let error = error {
+          print("Error writing new review: \(error)")
+        } else {
+          // Pop the review controller on success
+          if self.navigationController?.topViewController == self {
+            self.navigationController?.popViewController(animated: true)
+          }
+        }
+    }
   }
 
   @objc func ratingDidChange(_ sender: Any) {

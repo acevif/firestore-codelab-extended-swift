@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		315E91DA2245C114008E7E35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 315E91D92245C114008E7E35 /* GoogleService-Info.plist */; };
 		360549AC2028D56E0090317C /* EditRestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360549AB2028D56E0090317C /* EditRestaurantViewController.swift */; };
 		496B609A203363A9005AD625 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496B6099203363A9005AD625 /* ReviewTableViewCell.swift */; };
 		499D8970203CD176009C067E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499D896F203CD176009C067E /* Utils.swift */; };
@@ -52,6 +53,7 @@
 /* Begin PBXFileReference section */
 		00B73D5D826CE34E44902A50 /* Pods_FriendlyEats.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyEats.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		159A6C33CE6A0629F79672BE /* Pods_FriendlyEatsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendlyEatsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		315E91D92245C114008E7E35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		360549AB2028D56E0090317C /* EditRestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditRestaurantViewController.swift; sourceTree = "<group>"; };
 		496B6099203363A9005AD625 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
 		499D896F203CD176009C067E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
@@ -202,6 +204,7 @@
 				8DD9ACD91F7B166900C2DD24 /* pizza-monster.png */,
 				8D9BBC391EE2200900194E9A /* LaunchScreen.storyboard */,
 				8D9BBC3C1EE2200900194E9A /* Info.plist */,
+				315E91D92245C114008E7E35 /* GoogleService-Info.plist */,
 			);
 			path = FriendlyEats;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			files = (
 				8D9BBC3B1EE2200900194E9A /* LaunchScreen.storyboard in Resources */,
 				8D9BBC381EE2200900194E9A /* Assets.xcassets in Resources */,
+				315E91DA2245C114008E7E35 /* GoogleService-Info.plist in Resources */,
 				8D9BBC361EE2200900194E9A /* Main.storyboard in Resources */,
 				8DD9ACDA1F7B166900C2DD24 /* pizza-monster.png in Resources */,
 			);
